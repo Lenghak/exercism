@@ -4,7 +4,7 @@ package weather
 // CurrentCondition represents the current weather condition.
 var CurrentCondition string
 
-// CurrentLocation represetns the current corresponding location with the current weather condition.
+// CurrentLocation represents the current corresponding location with the current weather condition.
 var CurrentLocation string
 
 // Forecast returns a string contains the current location correspond with the current weather condition.
