@@ -1,10 +1,10 @@
 package main
 
 import (
-	animal_magic "exercism/animal_magic"
+	birdwatcher "exercism/bird_watcher"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(animal_magic.GenerateWandEnergy())
+	fmt.Println(birdwatcher.BirdsInWeek([]int{2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1}, 4))
 }
