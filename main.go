@@ -1,10 +1,10 @@
 package main
 
 import (
-	card_tricks "exercism/card_tricks"
+	animal_magic "exercism/animal_magic"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(card_tricks.PrependItems([]int{1, 2, 35, 6}, 1, 4))
+	fmt.Println(animal_magic.GenerateWandEnergy())
 }
