@@ -19,4 +19,4 @@ func CanSignalPrisoner(archerIsAwake, prisonerIsAwake bool) bool {
 // or if Annalyn's pet dog is with her and the archer is sleeping.
 func CanFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent bool) bool {
 	return (!knightIsAwake && !archerIsAwake && prisonerIsAwake) || (petDogIsPresent && !archerIsAwake)
- }
+}
