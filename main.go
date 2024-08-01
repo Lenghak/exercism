@@ -1,10 +1,12 @@
 package main
 
 import (
-	birdwatcher "exercism/bird_watcher"
+	lasagnamaster "exercism/lasagna_master"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(birdwatcher.BirdsInWeek([]int{2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1}, 4))
+	quantities := []float64{1.2, 3.6, 10.5}
+	scaledQuantities := lasagnamaster.ScaleRecipe(quantities, 4)
+	fmt.Println(quantities, scaledQuantities)
 }
