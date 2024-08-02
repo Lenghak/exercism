@@ -1,12 +1,10 @@
 package main
 
 import (
-	lasagnamaster "exercism/lasagna_master"
+	interest "exercism/interest_in_interesting"
 	"fmt"
 )
 
 func main() {
-	quantities := []float64{1.2, 3.6, 10.5}
-	scaledQuantities := lasagnamaster.ScaleRecipe(quantities, 4)
-	fmt.Println(quantities, scaledQuantities)
+	fmt.Println(interest.YearsBeforeDesiredBalance(2345.67, 12345.6789))
 }
