@@ -1,10 +1,11 @@
 package main
 
 import (
-	interest "exercism/interest_in_interesting"
+	booking "exercism/booking_up_for_beauty"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(interest.YearsBeforeDesiredBalance(2345.67, 12345.6789))
+
+	fmt.Println(booking.HasPassed("October 3, 2019 20:32:00"))
 }
