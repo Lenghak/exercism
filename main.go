@@ -1,11 +1,11 @@
 package main
 
 import (
-	elon "exercism/elons_toys"
+	logs "exercism/logs_logs_logs"
 	"fmt"
 )
 
 func main() {
-	car := elon.NewCar(5, 2)
-	fmt.Print(car.CanFinish(100))
+
+	fmt.Print(logs.Application("🔍 search recommended product ❗"))
 }
