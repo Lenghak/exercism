@@ -1,11 +1,17 @@
 package main
 
 import (
-	booking "exercism/booking_up_for_beauty"
+	electionday "exercism/election_day"
 	"fmt"
 )
 
 func main() {
+	var finalResults = map[string]int{
+		"Mary": 10,
+		"John": 51,
+	}
 
-	fmt.Println(booking.HasPassed("October 3, 2019 20:32:00"))
+	electionday.DecrementVotesOfCandidate(finalResults, "Mary")
+
+	fmt.Print(finalResults)
 }
