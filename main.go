@@ -1,17 +1,11 @@
 package main
 
 import (
-	electionday "exercism/election_day"
+	elon "exercism/elons_toys"
 	"fmt"
 )
 
 func main() {
-	var finalResults = map[string]int{
-		"Mary": 10,
-		"John": 51,
-	}
-
-	electionday.DecrementVotesOfCandidate(finalResults, "Mary")
-
-	fmt.Print(finalResults)
+	car := elon.NewCar(5, 2)
+	fmt.Print(car.CanFinish(100))
 }
