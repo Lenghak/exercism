@@ -1,11 +1,11 @@
 package main
 
 import (
-	"exercism/meteorology"
+	sorting "exercism/sorting_room"
 	"fmt"
 )
 
 func main() {
 
-	fmt.Println(meteorology.Celsius)
+	fmt.Println(sorting.FancyNumber{}.Value())
 }
